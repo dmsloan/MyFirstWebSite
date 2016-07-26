@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Project: Recipe book</title>
     <meta charset="utf-8">
     <style>
+        /* The element selector is a way to select all the elements with a given tag name in a document only write the tag name,
+        and not write brackets around the tag name — h1, not <h1>.*/ 
+        
         h2 {
             color: blue;
         }
@@ -12,12 +16,22 @@
             color: rgb(184, 131, 184);
         }
         
+        /* The id selector is a way to select only the element with the specified id */ 
+        
         #CCCookies {
             color: brown;
             background-color: tan;
         }
+
+        /*The class selector is a way to select all of the elements with the specified class name, and apply styles to each of the matching elements. The selector must start with a period (.) and then the class name. The browser will look for all tags in the page that have a class attribute containing that class name.*/
+
+        .cold{
+            color: blue;
+            background-color: violet;
+        }
     </style>
 </head>
+
 <body>
 
     <h1>Derek's Recipe Book</h1>
@@ -199,7 +213,7 @@
                 <td>2</td>
             </tr>
             <tr>
-                <td>Ice</td>
+                <td class="cold">Ice</td>
                 <td>10 lbs</td>
             </tr>
         </tbody>

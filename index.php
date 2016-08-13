@@ -53,7 +53,7 @@ and open the template in the editor.
           Oh, bring back my Bonnie to me.
         </pre>
         <a href="http://www.ibe-inc.com">This is a link to the IBE Website</a><br />
-        <a href="http://www.w3schools.com">This is a link to the W3Schools Website</a><br />
+        <a href="http://www.w3schools.com" target="_blank">This is a link to the W3Schools Website</a><br />
         <img src="w3schools.png" alt="BrokenW3Schools.png" width="280" height="32">        
         <hr>
         <p title="About W3Schools">
